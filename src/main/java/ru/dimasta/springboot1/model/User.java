@@ -14,16 +14,16 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "name")
-    private String name;
+    @Column(name = "first_name")
+    private String firstName;
 
-    @Column(name = "surname")
-    private String surname;
+    @Column(name = "last_name")
+    private String lastName;
 
-    @Column(name = "age")
-    private byte age;
+    @Column(name = "Age")
+    private int age;
 
-    @Column(name = "weight")
-    private int weight;
+    @Column(name = "Email")
+    private String email;
 
 }
